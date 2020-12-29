@@ -33,13 +33,13 @@
                         android:layout_height="25dp"
                         android:layout_centerVertical="true"
                         android:clickable="true"
-                        android:layout_toLeftOf="@+id/refreshIV"
+                        android:layout_toStartOf="@+id/refreshIV"
                         android:src="@drawable/addbarber" />
                     <ImageView
                         android:id="@+id/refreshIV"
                         android:layout_width="50dp"
                         android:layout_height="25dp"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:clickable="true"
                         android:src="@drawable/refresh_back" />

@@ -13,8 +13,8 @@
         android:background="@color/colorPrimary"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="5dp">
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp">
 
         <ImageView
             android:layout_width="100dp"
@@ -40,8 +40,8 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingBottom="30dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
 
         <TextView
             android:id="@+id/warningTV"
@@ -64,8 +64,8 @@
             android:background="@drawable/edge_edit_text_background"
             android:hint="Type your reply message"
             android:paddingBottom="7dp"
-            android:paddingLeft="7dp"
-            android:paddingRight="7dp"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
             android:paddingTop="7dp" />
 
         <LinearLayout
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
 
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
                 android:background="@drawable/btn_background"
                 android:text="Send"
                 android:textColor="@color/white"
@@ -89,7 +89,7 @@
                 android:id="@+id/btn_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:background="@drawable/btn_background"
                 android:text="Cancel"
                 android:textColor="@color/white"

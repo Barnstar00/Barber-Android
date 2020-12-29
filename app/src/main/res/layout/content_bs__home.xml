@@ -141,8 +141,8 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:paddingBottom="@dimen/_5sdp"
-                            android:paddingRight="@dimen/_16sdp"
-                            android:paddingLeft="@dimen/_16sdp"
+                            android:paddingEnd="@dimen/_16sdp"
+                            android:paddingStart="@dimen/_16sdp"
                             android:paddingTop="@dimen/_16sdp">
 
                             <TextView
@@ -174,7 +174,7 @@
                                     android:id="@+id/ratingTV"
                                     android:layout_width="@dimen/_20sdp"
                                     android:layout_height="@dimen/_20sdp"
-                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginStart="5dp"
                                     android:gravity="center" />
 
                             </LinearLayout>
@@ -201,7 +201,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginRight="7dp"
+                                    android:layout_marginEnd="7dp"
                                     android:text="Total Queueing:"
                                     android:textSize="12sp" />
 
@@ -220,10 +220,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_35sdp"
                         android:paddingBottom="@dimen/_5sdp"
-                        android:paddingLeft="@dimen/_15sdp"
+                        android:paddingStart="@dimen/_15sdp"
                         android:id="@+id/socialbtnslayout"
                         android:visibility="gone"
-                        android:paddingRight="@dimen/_15sdp">
+                        android:paddingEnd="@dimen/_15sdp">
 
                         <RelativeLayout
                             android:layout_width="0dp"
@@ -234,8 +234,8 @@
                                 android:id="@+id/fbIV"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="@dimen/_5sdp"
-                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_marginEnd="@dimen/_5sdp"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:clickable="true"
@@ -251,8 +251,8 @@
                                 android:id="@+id/instagramIV"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="@dimen/_5sdp"
-                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_marginEnd="@dimen/_5sdp"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:clickable="true"
@@ -268,8 +268,8 @@
                                 android:id="@+id/twtIV"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="@dimen/_5sdp"
-                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_marginEnd="@dimen/_5sdp"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:clickable="true"
@@ -305,8 +305,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="22.00dp"
-                        android:layout_marginLeft="@dimen/_20sdp"
-                        android:layout_marginRight="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
                         android:layout_marginTop="22.00dp"
                         android:background="@color/colorPrimary">
 
@@ -553,8 +553,8 @@
                         android:id="@+id/onHScrollview"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
                         android:background="@color/colorPrimary" />
 
                 </LinearLayout>
@@ -585,8 +585,8 @@
                         android:id="@+id/offHScrollview"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
                         android:background="@color/colorPrimary" />
 
                 </LinearLayout>
